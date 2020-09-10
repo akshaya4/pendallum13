@@ -54,4 +54,15 @@ function draw() {
 	rope3.display();
 	rope4.display();
 	rope5.display();
+	
+	if(keyCode===32){
+ball.position.y = mouseY;
+ball.position.x = mouseX;
+}
+
+else if (keyCode === ENTER){
+ball.position.x = 200;
+
+}
+	
 }
